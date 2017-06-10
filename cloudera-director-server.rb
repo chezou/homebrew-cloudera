@@ -4,6 +4,8 @@ class ClouderaDirectorServer < Formula
   url "http://archive.cloudera.com/director/director/2/cloudera-director-server-2.4.1-director2.4.1.tar.gz"
   sha256 "48a584658728e29710f7fd9b216e523dfabbba9c8c6e02e4c3e0c7db7d8f4d9b"
 
+  depends_on "cloudera-director-client" => :recommended
+
   def install
     libexec.install Dir["bin", "lib", "plugins", "etc"]
     bin.install_symlink "#{libexec}/bin/start" => "cloudera-director-server-start"
