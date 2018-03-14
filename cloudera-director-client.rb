@@ -1,8 +1,8 @@
 class ClouderaDirectorClient < Formula
   desc "Cloudera Director Client"
   homepage "https://www.cloudera.com/products/product-components/cloudera-director.html"
-  url "http://archive.cloudera.com/director/director/2/cloudera-director-client-2.7.0-director2.7.0.tar.gz"
-  sha256 "60d40c0837a6ea0a27997805ae506200315caa9e01fbadb8809e60ac1a9bf989"
+  url "http://archive.cloudera.com/director/director/2/cloudera-director-client-2.7.1-director2.7.1.tar.gz"
+  sha256 "81453c07fd9ab142932eb89b401d5b15ffb083884ede629252fa63bfd7b8e93a"
 
   def install
     libexec.install Dir["bin", "lib", "plugins", "etc"]
