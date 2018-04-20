@@ -14,7 +14,7 @@ class ClouderaDirectorServer < Formula
   end
 
   def caveats
-    msg = <<-EOF.undent
+    msg = <<~EOF
   You can start cloudera director server with cloudera-director-server-start command. If you want to stop it, use cloudera-director-server-stop.
   EOF
   end
