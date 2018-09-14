@@ -1,8 +1,8 @@
 class ClouderaDirectorServer < Formula
   desc "Cloudera Director Server which enbales you to deploy CDH cluster on cloud"
   homepage "https://www.cloudera.com/products/product-components/cloudera-director.html"
-  url "http://archive.cloudera.com/director/director/2/cloudera-director-server-2.8.0-director2.8.0.tar.gz"
-  sha256 "6ab9d1e8f9c5348d54050f59ff33b9daefbad4b316127a9c2265f7771ffe4cba"
+  url "http://archive.cloudera.com/director6/6.0.0/tars/cloudera-director-server-6.0.0.tar.gz"
+  sha256 "ec993645313cc4fc9f9f1b4d1e926b84595d6f02866100d4c5e225976184aa4e"
 
   depends_on "cloudera-director-client" => :recommended
 
